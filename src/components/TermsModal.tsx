@@ -114,8 +114,8 @@ export default function TermsModal({ isOpen, onClose }: TermsModalProps) {
             <p>For any queries regarding these terms, please contact the authorised sales team:</p>
             <ul className="list-none space-y-1 mt-2">
               <li><strong>Project:</strong> DNR Parklink | DNR Group</li>
-              <li><strong>Phone:</strong> +91 782 91 999 00</li>
-              <li><strong>Email:</strong> sales@dnrgroup.in</li>
+              <li><strong>Phone:</strong> 07019448585</li>
+              <li><strong>Email:</strong> Hello@therealconnect.co.in</li>
               <li><strong>Location:</strong> Hennur Bagalur Main Rd (New Airport Rd), Chikkagubbi Village, Bengaluru, Karnataka 560077</li>
             </ul>
           </div>

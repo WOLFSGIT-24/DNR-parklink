@@ -77,10 +77,10 @@ export default function Footer({ onOpenPrivacy, onOpenTerms }: FooterProps = {})
                 Contact
               </span>
               <p className="text-sm font-bold text-white tracking-wider">
-                <a href="tel:+917829199900" className="hover:text-gold transition-colors">+91 782 91 999 00</a>
+                <a href="tel:07019448585" className="hover:text-gold transition-colors">07019448585</a>
               </p>
               <p className="text-sm font-bold text-white tracking-wider mt-1">
-                <a href="mailto:sales@dnrgroup.in" className="hover:text-gold transition-colors">sales@dnrgroup.in</a>
+                <a href="mailto:Hello@therealconnect.co.in" className="hover:text-gold transition-colors">Hello@therealconnect.co.in</a>
               </p>
             </div>
 
@@ -142,9 +142,7 @@ export default function Footer({ onOpenPrivacy, onOpenTerms }: FooterProps = {})
             <span className="font-body text-[10px] font-bold text-gold uppercase tracking-[0.2em] block mb-1">
               Authorized Sales Partner
             </span>
-            <p className="text-[11px] font-bold text-white/80">
-              Wolf Media
-            </p>
+
             <p className="text-[11px] text-white/60">
               This website is operated by an authorized marketing partner for DNR Group.
             </p>

@@ -234,7 +234,7 @@ export default function App() {
       {/* Fixed Mobile Bottom CTA Bar */}
       <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 flex shadow-[0_-10px_30px_rgba(0,0,0,0.15)]">
         <a 
-          href="tel:+917829199900" 
+          href="tel:07019448585" 
           className="flex-1 flex items-center justify-center gap-2 bg-navy-primary text-white font-body text-[13px] font-extrabold uppercase tracking-[0.15em] py-4 transition-colors hover:bg-navy-dark border-r border-white/20"
         >
           <Phone className="h-4 w-4 fill-white" />
@@ -253,7 +253,7 @@ export default function App() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/917829199900"
+        href="https://wa.me/917019448585"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-[84px] md:bottom-8 right-4 md:right-8 bg-[#25D366] text-white p-3.5 md:p-4 rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.4)] hover:shadow-[0_8px_30px_rgba(37,211,102,0.6)] hover:scale-110 transition-all z-40 flex items-center justify-center animate-fade-in"

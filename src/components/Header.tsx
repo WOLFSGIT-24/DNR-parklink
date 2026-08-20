@@ -54,14 +54,20 @@ export default function Header({ onOpenBooking, onToggleAdmin, isAdminActive }: 
 
   return (
     <>
-      <header
-        className={`fixed top-0 left-0 w-full h-20 z-40 transition-all duration-300 ${
-          isScrolled
-            ? "bg-marble/95 backdrop-blur-md border-b border-navy-primary/10 shadow-[0_4px_30px_rgba(0,0,0,0.03)]"
-            : "bg-transparent"
-        }`}
-      >
-        <div className="max-w-7xl mx-auto h-full px-6 md:px-12 flex items-center justify-between">
+      <div className="fixed top-0 left-0 w-full z-50 flex flex-col">
+        {/* Top Announcement Strip */}
+        <div className="bg-navy-dark text-white w-full py-2 px-4 text-center text-[10px] sm:text-xs font-body font-bold uppercase tracking-[0.2em] shadow-sm">
+          Phase-1 Nearing Completion
+        </div>
+        
+        <header
+          className={`w-full h-20 transition-all duration-300 ${
+            isScrolled
+              ? "bg-marble/95 backdrop-blur-md border-b border-navy-primary/10 shadow-[0_4px_30px_rgba(0,0,0,0.03)]"
+              : "bg-transparent"
+          }`}
+        >
+          <div className="max-w-7xl mx-auto h-full px-6 md:px-12 flex items-center justify-between">
           {/* Logo Brand */}
           <a
             href="#overview"
@@ -118,7 +124,7 @@ export default function Header({ onOpenBooking, onToggleAdmin, isAdminActive }: 
 
             {/* Mobile Call Button */}
             <a
-              href="tel:+917829199900"
+              href="tel:07019448585"
               className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full border border-navy-primary/20 text-navy-primary focus:outline-none hover:bg-navy-primary/5 transition-colors"
             >
               <Phone className="h-4 w-4" />
@@ -138,6 +144,7 @@ export default function Header({ onOpenBooking, onToggleAdmin, isAdminActive }: 
           </div>
         </div>
       </header>
+      </div>
 
       {/* Mobile Drawer menu */}
       {mobileMenuOpen && (

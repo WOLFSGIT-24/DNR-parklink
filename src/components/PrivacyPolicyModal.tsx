@@ -131,8 +131,8 @@ export default function PrivacyPolicyModal({ isOpen, onClose }: PrivacyPolicyMod
             <p>For any privacy-related queries, please reach out to the DNR Parklink sales team:</p>
             <ul className="list-none space-y-1 mt-2">
               <li><strong>Project:</strong> DNR Parklink</li>
-              <li><strong>Phone:</strong> +91 782 91 999 00</li>
-              <li><strong>Email:</strong> sales@dnrgroup.in</li>
+              <li><strong>Phone:</strong> 07019448585</li>
+              <li><strong>Email:</strong> Hello@therealconnect.co.in</li>
               <li><strong>Location:</strong> Hennur Bagalur Main Rd (New Airport Rd), Chikkagubbi Village, Bengaluru, Karnataka 560077</li>
               <li><strong>RERA Reg. No.:</strong> PRM/KA/RERA/1251/446/PR/040823/006113</li>
             </ul>
