@@ -26,14 +26,14 @@ export default function FloorPlans({
       title: "3 BHK + 2T",
       area: "1567 SQ.FT.",
       details: [],
-      imageUrl: "/3 BHK + 2T.png",
+      imageUrl: "/3bhk-2t.png",
       type: "3 BHK + 2T",
     },
     {
       title: "2 BHK + Study",
       area: "1357 - 1385 SQ.FT.",
       details: [],
-      imageUrl: "/2 BHK + Study.png",
+      imageUrl: "/2bhk-study.png",
       type: "2 BHK + Study",
     },
     {
