@@ -113,7 +113,7 @@ export default function OfferModal({ isOpen, onClose, onAddLead }: OfferModalPro
         onClick={onClose}
       />
       
-      <div className="relative w-full max-w-[420px] bg-[#EBE3CD] rounded-lg shadow-2xl overflow-hidden animate-fade-in border border-[#D5CBAA]">
+      <div className="relative w-full max-w-[420px] bg-white rounded-lg shadow-2xl overflow-hidden animate-fade-in border border-gray-200">
         {/* Close Button */}
         <button 
           onClick={onClose}
@@ -125,7 +125,7 @@ export default function OfferModal({ isOpen, onClose, onAddLead }: OfferModalPro
         {!submitted ? (
           <form onSubmit={handleSubmit} className="flex flex-col h-full">
             {/* Header Content matching form section */}
-            <div className="p-6 sm:p-8 pb-5 border-b border-[#D5CBAA]">
+            <div className="p-6 sm:p-8 pb-5 border-b border-gray-200">
               <h3 className="font-display text-[15px] sm:text-[16px] font-bold text-navy-primary uppercase tracking-wide">
                 Schedule Your Exclusive Site Visit
               </h3>
