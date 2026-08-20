@@ -17,14 +17,14 @@ export default function Footer({ onOpenPrivacy, onOpenTerms }: FooterProps = {})
   };
 
   return (
-    <footer className="w-full bg-navy-primary text-white border-t border-white/10 py-20 relative overflow-hidden font-body">
+    <footer className="w-full bg-navy-primary text-white border-t border-white/10 py-10 relative overflow-hidden font-body">
       {/* Radial warm lighting backdrop overlay */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(254,214,91,0.02),transparent)] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         
         {/* Main Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-16 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 mb-8">
           
           {/* Left Column: Logo & Address */}
           <div className="md:col-span-5 space-y-6">
@@ -97,7 +97,7 @@ export default function Footer({ onOpenPrivacy, onOpenTerms }: FooterProps = {})
         </div>
 
         {/* Divider */}
-        <div className="h-[1px] bg-white/10 w-full mb-10" />
+        <div className="h-[1px] bg-white/10 w-full mb-6" />
 
         {/* Legal & Compliance bottom section */}
         <div className="space-y-8 text-xs text-white/50 leading-relaxed">
@@ -138,7 +138,7 @@ export default function Footer({ onOpenPrivacy, onOpenTerms }: FooterProps = {})
           </div>
 
           {/* Authorized Sales Partner Branding */}
-          <div className="pt-6 border-t border-white/5 space-y-1">
+          <div className="pt-4 border-t border-white/5 space-y-1">
             <span className="font-body text-[10px] font-bold text-gold uppercase tracking-[0.2em] block mb-1">
               Authorized Sales Partner
             </span>

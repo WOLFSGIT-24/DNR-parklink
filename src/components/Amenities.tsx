@@ -36,7 +36,7 @@ export default function Amenities() {
           </h2>
           <div className="h-[2px] w-16 bg-navy-primary mx-auto" />
           <p className="font-body text-sm md:text-base text-gray-text leading-relaxed">
-            At DNR Parklink, everyday living extends beyond your home. A thoughtfully planned collection of indoor and outdoor amenities brings together fitness, recreation, relaxation and community spaces—creating more ways to connect, unwind and enjoy every day.
+            At DNR Parklink, everyday living extends beyond your home. A thoughtfully planned collection of indoor and outdoor amenities brings together fitness, recreation, relaxation and community spaces creating more ways to connect, unwind and enjoy every day.
           </p>
         </div>
 
