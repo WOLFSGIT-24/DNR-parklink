@@ -64,7 +64,7 @@ export default function Hero({ onOpenEnquiry, onRequestDownload }: HeroProps) {
                 Your First Premium Home Should Never Be a Compromise.
               </h1>
               <p className="hidden lg:block font-body text-lg text-navy-primary/80 mb-2 animate-fade-in delay-100 leading-relaxed max-w-xl">
-                Introducing DNR Parklink — an expansive residential community spread across 8.35 acres, featuring 784 thoughtfully designed residences, 70% open spaces and a lavish 40,000 sq. ft. clubhouse. Experience spacious homes, well-ventilated interiors, lush landscaping and a thoughtfully planned lifestyle in North Bengaluru.
+                Introducing DNR Parklink an expansive residential community spread across 8.35 acres, featuring 784 thoughtfully designed residences, 70% open spaces and a lavish 40,000 sq. ft. clubhouse. Experience spacious homes, well-ventilated interiors, lush landscaping and a thoughtfully planned lifestyle in North Bengaluru.
               </p>
             </div>
           </div>

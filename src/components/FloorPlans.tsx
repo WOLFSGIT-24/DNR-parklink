@@ -116,7 +116,7 @@ export default function FloorPlans({
               <div className="pt-4 w-full">
                 <button
                   onClick={() => handleAction(plan)}
-                  className="w-full sm:w-auto bg-black text-white font-body text-xs font-bold tracking-widest uppercase px-8 py-3.5 hover:bg-gold hover:text-navy-dark transition-all rounded-full cursor-pointer shadow-md"
+                  className="w-full sm:w-auto bg-navy-dark text-white font-body text-xs font-bold tracking-widest uppercase px-8 py-3.5 hover:bg-navy-primary transition-all rounded-sm cursor-pointer shadow-md"
                 >
                   {isUnlocked ? "View Floor Plan" : "Get Floor Plan"}
                 </button>

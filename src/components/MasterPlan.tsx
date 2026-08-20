@@ -77,7 +77,7 @@ export default function MasterPlan({ onSelectUnit }: MasterPlanProps) {
 
               {/* Right Side: Interactive blueprint visual preview */}
               <div className="w-full md:w-7/12 aspect-[4/3] relative p-4 sm:p-6 bg-white rounded-lg border border-navy-primary/5 flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 bg-navy-dark/45 opacity-0 group-hover:opacity-100 transition-all duration-500 z-10 flex items-center justify-center gap-2">
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-500 z-10 flex items-center justify-center gap-2">
                   <button
                     onClick={() => setBlueprintModal(plan)}
                     className="flex items-center justify-center gap-2 bg-navy-dark text-white font-body text-xs font-bold tracking-widest uppercase px-8 py-4.5 hover:bg-navy-primary transition-colors shadow-lg rounded-sm transform translate-y-2 group-hover:translate-y-0 cursor-pointer"

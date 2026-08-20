@@ -124,7 +124,7 @@ export default function BrochureForm({ onAddLead, preselectedUnit }: BrochureFor
             </h2>
 
 
-            <div className="bg-navy-primary/60 p-6 sm:p-8 rounded-lg space-y-5 border border-white/5 shadow-2xl">
+            <div className="bg-black/25 backdrop-blur-md p-6 sm:p-8 rounded-lg space-y-5 border border-white/10 shadow-2xl">
               <h4 className="font-display text-lg font-bold text-champagne tracking-wide flex items-center gap-2">
                 <Sparkles className="h-4.5 w-4.5 text-gold" />
                 Project Snapshot
