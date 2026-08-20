@@ -222,7 +222,7 @@ export default function BrochureForm({ onAddLead, preselectedUnit }: BrochureFor
                           required
                           value={formData.phone}
                           onChange={handleChange}
-                          placeholder="e.g. +91 98765 43210"
+                          placeholder="XXXXX XXXXX"
                           className="w-full bg-transparent border-none text-sm font-body outline-none placeholder:text-gray-300 py-1"
                         />
                       </div>

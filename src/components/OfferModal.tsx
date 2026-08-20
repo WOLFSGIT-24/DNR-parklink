@@ -181,7 +181,7 @@ export default function OfferModal({ isOpen, onClose, onAddLead }: OfferModalPro
                   required
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="e.g. 9876543210"
+                  placeholder="XXXXX XXXXX"
                   className="w-full bg-white border border-black rounded-md px-3 py-2.5 text-sm outline-none focus:ring-2 focus:ring-navy-primary/20 focus:border-navy-primary font-body text-black placeholder:text-gray-400"
                 />
                 {errors.phone && <p className="text-red-500 text-[10px] mt-1">{errors.phone}</p>}

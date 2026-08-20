@@ -169,7 +169,7 @@ export default function BookingModal({
                     required
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="e.g. +91 98765 43210"
+                    placeholder="XXXXX XXXXX"
                     className="w-full bg-transparent border-none text-xs sm:text-sm font-body outline-none placeholder:text-gray-300 py-1"
                   />
                 </div>
