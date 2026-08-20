@@ -17,7 +17,7 @@ export default function Footer({ onOpenPrivacy, onOpenTerms }: FooterProps = {})
   };
 
   return (
-    <footer className="w-full bg-[#241c18] text-white/80 border-t border-white/5 py-20 relative overflow-hidden font-body">
+    <footer className="w-full bg-navy-primary text-white border-t border-white/10 py-20 relative overflow-hidden font-body">
       {/* Radial warm lighting backdrop overlay */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(254,214,91,0.02),transparent)] pointer-events-none" />
 
