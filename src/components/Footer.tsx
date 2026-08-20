@@ -102,17 +102,21 @@ export default function Footer({ onOpenPrivacy, onOpenTerms }: FooterProps = {})
         {/* Legal & Compliance bottom section */}
         <div className="space-y-8 text-xs text-white/50 leading-relaxed">
           
-          {/* RERA and legal copy */}
+          {/* Legal & Compliance copy */}
           <div className="space-y-3">
-            <span className="font-body text-[10px] font-bold text-gold uppercase tracking-[0.2em] block">
-              Compliance & RERA
-            </span>
-            <p className="max-w-4xl text-[11px]">
-              Karnataka RERA Registration No: <strong className="text-white/85">{projectSnapshot.rera}</strong> is available at the official website <a href="https://rera.karnataka.gov.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">https://rera.karnataka.gov.in</a>.
-            </p>
-            <p className="max-w-4xl text-[10px] text-white/40">
-              Disclaimer: The information provided on this website is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any real estate. Visuals, renders, and layouts are artistic impressions only and subject to change by the developer.
-            </p>
+            <details className="group cursor-pointer">
+              <summary className="font-body text-[10px] font-bold text-gold uppercase tracking-[0.2em] flex items-center gap-2 focus:outline-none">
+                Compliance & Legal Disclaimer
+                <svg className="w-3 h-3 transition-transform duration-300 group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="pt-3">
+                <p className="max-w-full text-[10px] text-white/40 leading-relaxed text-justify">
+                  Disclaimer: The images, renders, floor plans, and other details shown herein are only indicative and for representational purposes. The Promoter / Developer reserves the right to change any or all of these in the interest of the development, as per applicable provisions of law. Artist's impressions are used to illustrate amenities, specifications, lifestyle imagery, and other details. A tolerance of +/- 3% is possible in the unit areas on account of design and construction variances. All brands, fittings, and fixtures shown are subject to final decision of the project architect and developer. This electronic / printed material does not constitute an offer and/or contract of any type between the Developer and the recipient. No booking or allotment shall be deemed to have been made on the basis of this electronic / printed material. Any purchaser / lessee of this development shall be governed by the terms and conditions of the agreement for sale / lease entered into between the parties, and no details mentioned in this material shall in any way govern such transactions unless as may be otherwise expressly provided in the agreement for sale / lease by the Developer. The Developer does not warrant or assume any liability or responsibility for the accuracy or completeness of any information contained herein. DNR Parklink is registered under the Real Estate (Regulation and Development) Act, 2016. RERA Registration No: <strong className="text-white/60">{projectSnapshot.rera}</strong>. You are required to verify all the details — including area, amenities, services, terms of sales and payments, and other relevant terms — independently with the Developer's authorised sales team only, by physically visiting the project site and the authorised website of RERA Karnataka at <a href="https://rera.karnataka.gov.in/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white/80">rera.karnataka.gov.in</a>. You are requested NOT to visit any unauthorised or unverified website, broker (online / offline) to receive any information about DNR Parklink or its sister concerns. This website is operated by The Real Connect, an authorised channel sales partner for DNR Parklink. Marketing and sales support is provided solely in an authorised capacity. The Real Connect and its associates shall not be liable for any misrepresentation or discrepancies arising from information shared through unofficial or unauthorised channels.
+                </p>
+              </div>
+            </details>
           </div>
 
           {/* Privacy & copyright */}
