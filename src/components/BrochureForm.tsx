@@ -119,7 +119,7 @@ export default function BrochureForm({ onAddLead, preselectedUnit }: BrochureFor
           
           {/* Project Snapshot & Metadata */}
           <div className="lg:col-span-5 space-y-8">
-            <h2 className="font-display text-3xl sm:text-4xl text-champagne font-semibold leading-tight">
+            <h2 className="font-display text-3xl sm:text-4xl text-white font-semibold leading-tight drop-shadow-sm">
               Your Next Chapter Begins Here.
             </h2>
 
@@ -131,22 +131,22 @@ export default function BrochureForm({ onAddLead, preselectedUnit }: BrochureFor
               </h4>
               <ul className="space-y-3 font-body text-xs sm:text-sm text-on-primary-container">
                 <li className="flex justify-between border-b border-white/5 pb-2.5">
-                  <span className="font-semibold text-white">Premium 2.5 & 3 BHK Homes</span>
+                  <span className="font-semibold text-white">Premium 2 BHK + Study, 2.5 BHK & 3 BHK Homes</span>
                 </li>
                 <li className="flex justify-between border-b border-white/5 pb-2.5">
-                  <span className="font-semibold text-white">Starting from ₹1.85 Crore</span>
+                  <span className="font-semibold text-white">8.35 Acres of Thoughtfully Planned Development</span>
                 </li>
                 <li className="flex justify-between border-b border-white/5 pb-2.5">
                   <span className="font-semibold text-white">784 Residences</span>
                 </li>
                 <li className="flex justify-between border-b border-white/5 pb-2.5">
-                  <span className="font-semibold text-white">Hennur Bagalur Main Rd (New Airport Rd)</span>
+                  <span className="font-semibold text-white">70% Open Space</span>
                 </li>
                 <li className="flex justify-between border-b border-white/5 pb-2.5">
-                  <span className="font-semibold text-white">Exclusive Flexi Payment Plan</span>
+                  <span className="font-semibold text-white">Hennur – Bagalur Main Road (New Airport Road)</span>
                 </li>
                 <li className="flex justify-between pb-1">
-                  <span className="font-semibold text-white">RERA No. PRM/KA/RERA/1251/446/PR/040823/006113</span>
+                  <span className="font-semibold text-white">40,000 Sq. Ft. Clubhouse & Amenities</span>
                 </li>
               </ul>
             </div>
