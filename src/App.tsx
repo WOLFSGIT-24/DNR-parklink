@@ -85,21 +85,16 @@ export default function App() {
     };
 
     // Post to Make.com Webhook
-    fetch("https://hook.us1.make.com/2bmmq21zo8ocu9itedtq5oyhu5sg5zad", {
+    fetch("https://hook.us1.make.com/j2vs7se72inj9g6la4c1hc0pp0ikh1xz", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        id: newLead.id,
-        fullName: newLead.fullName,
-        email: newLead.email,
+        name: newLead.fullName,
         phone: newLead.phone,
-        source: newLead.source,
-        notes: newLead.notes || "",
-        submittedAt: isoTimestamp,
-        localTimestamp: localTimestamp,
-        status: newLead.status,
+        email: newLead.email,
+        submittedAt: localTimestamp,
       }),
     }).catch((err) => {
       console.error("Webhook submission failed:", err);
